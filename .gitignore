@@ -1,0 +1,16 @@
+**/builds/**
+**/JuceLibraryCode/**
+**/Docs/Doc_Images/**
+**/Docs/html/**
+**/Docs/Images/**
+**/Docs/Images/RC/**
+**/Docs/Images/RTIC/**
+**/Old Code/***
+**/screen shots/**
+**/screens_shots/***
+**/Setup/**
+*.iss
+**/Docs/EULA example.txt
+*.xcf
+*.txt
+
