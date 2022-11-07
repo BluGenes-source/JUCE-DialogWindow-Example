@@ -15,6 +15,9 @@
 AboutContent::AboutContent() 
 {
 
+    addAndMakeVisible(escLabel);
+    escLabel.setText("Press Escape to Close", dontSendNotification);
+
     addAndMakeVisible(ContentLabel1);
     ContentLabel1.setText("It's all about this!", dontSendNotification);
     ContentLabel1.setFont(juce::Font("Times New Roman", 34.00f, juce::Font::plain).withTypefaceStyle("Bold"));
@@ -81,6 +84,8 @@ void AboutContent::resized()
     ContentLabel1.setBounds(getWidth() / 3, 10, 200, 40);
 
     imagePreview.setBounds(getWidth() / 3 +20, 60, 128, 128);
+
+    escLabel.setBounds(getWidth() / 3 + 20, 200, 150, 40);
 
 
     ContentLabel2.setBounds(getWidth() / 3 - 150, 280, 200, 40);

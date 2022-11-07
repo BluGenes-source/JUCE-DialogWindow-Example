@@ -9,6 +9,8 @@ The second method uses a safer way of calling the dialog and is the preffered wa
 
 This example aslo demonstrates how to store and recall an image in the binary executeable.
 
+The project also uses a conditional define so you can easily see the dialog while you place your compoents.
+
 This would be an alternative to using the JUCE AlertWindow, which in most cases
 probably would suffice.
 

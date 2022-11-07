@@ -30,6 +30,7 @@ private:
     Label ContentLabel1;
     Label ContentLabel2;
     Label ContentLabel3;
+    Label escLabel;
 
     HyperlinkButton forumLinkButton;
     HyperlinkButton webLinkButton;
